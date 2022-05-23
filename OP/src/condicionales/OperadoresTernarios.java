@@ -2,24 +2,25 @@ package condicionales;
 
 import java.util.Scanner;
 
-public class CondicionalMultiple {
+public class OperadoresTernarios {
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	System.out.print("Diagrama un valor entero : ");
 	int a = sc.nextInt();
 	
-	if(a >= 0) {
-		System.out.println("Es un valor positivo");	
-	} if (a < 10){
-		
-		//bloque false
-		System.out.println("es un valor negativo");
+	String res = "";
+	
+	if (a >= 0 ) {
+		res = "valor position";
 	} else {
-		//bloque false
-		System.out.println("es un valor nulo");
+		res = "valor negativo";
 	}
+	
+	res = a >= 0 ? "valor positivo" : "valor negativo";
+	System.out.println(res);
 	
 	System.out.println("la variable a vale : " + a);
 	sc.close();
 	}
+
 }
