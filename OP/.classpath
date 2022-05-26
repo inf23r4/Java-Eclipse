@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="factory"/>
 	<classpathentry kind="src" path="Prototipe(metodo de creacion)"/>
 	<classpathentry kind="src" path="Adaptador (patrones estructurales)"/>
+	<classpathentry kind="src" path="PATRONES DE COMPORTAMIENTO"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
