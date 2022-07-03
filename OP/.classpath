@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="Adaptador (patrones estructurales)"/>
 	<classpathentry kind="src" path="PATRONES DE COMPORTAMIENTO"/>
 	<classpathentry kind="src" path="Ejercicios Propuestos"/>
+	<classpathentry kind="src" path="zoo"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
